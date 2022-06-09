@@ -1,0 +1,39 @@
+header{
+    background-color: dodgerblue;
+    height: 100px;
+}
+
+.row{
+    height: 100%;
+}
+
+header .container-fluid{
+    height: 100%;
+}
+
+.col-6{
+    border: 2px solid black;
+}
+
+#jumbo{
+    min-height: 200px;
+}
+
+.bg-green{
+    background-color: forestgreen;
+}
+
+#portfolio{
+    min-height: 500px;
+    background-color: aquamarine;
+}
+
+#about{
+    background-color: darkorchid;
+    min-height: 400px;
+}
+
+footer{
+    background-color: darkgoldenrod;
+    min-height: 300px;
+}
