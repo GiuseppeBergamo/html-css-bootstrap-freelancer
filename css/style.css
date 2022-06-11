@@ -1,39 +1,69 @@
+/* GENERICS */
+
 header{
-    background-color: dodgerblue;
     height: 100px;
 }
 
-.row{
+nav{
     height: 100%;
 }
 
-header .container-fluid{
-    height: 100%;
+img{
+    max-width: 100%;
 }
 
-.col-6{
+span.bar{
+    height: 10px;
+    width: 100%;
+    background-color: white;
+    line-height: 100%;
+    vertical-align: middle;
+
+}
+
+[class^="col"]{
     border: 2px solid black;
 }
 
-#jumbo{
-    min-height: 200px;
+.bi-star-fill{
+    font-size: 2rem;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+
+/* Utils */
+.bg-black{
+    background-color: black;
 }
 
 .bg-green{
-    background-color: forestgreen;
+    background-color: #1abc9c;
 }
+
+
+/* BACKGROUND SECTION */
+
+#jumbo{
+    min-height: 400px;
+    background-color: #1abc9c;
+}
+
 
 #portfolio{
     min-height: 500px;
-    background-color: aquamarine;
 }
 
 #about{
-    background-color: darkorchid;
+    background-color: #1abc9c;
     min-height: 400px;
 }
 
 footer{
-    background-color: darkgoldenrod;
     min-height: 300px;
 }
+
+#footer-top{
+    background-color: #3a546d;
+}
+
