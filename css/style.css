@@ -21,9 +21,7 @@ span.bar{
 
 }
 
-[class^="col"]{
-    border: 2px solid black;
-}
+
 
 .bi-star-fill{
     font-size: 2rem;
@@ -41,6 +39,13 @@ span.bar{
     background-color: #1abc9c;
 }
 
+.size-icon{
+    font-size: 2rem;
+}
+
+.color-green{
+    color: #1abc9c;
+}
 
 /* BACKGROUND SECTION */
 
@@ -59,11 +64,17 @@ span.bar{
     min-height: 400px;
 }
 
-footer{
-    min-height: 300px;
-}
 
 #footer-top{
     background-color: #3a546d;
+    min-height: 200px;
 }
+
+#footer-bottom{
+    min-height: 100px;
+    background-color: #2c3e50;;
+}
+
+
+
 
